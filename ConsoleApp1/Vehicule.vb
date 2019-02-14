@@ -1,4 +1,7 @@
-﻿Public Class Vehicule
+﻿''' <summary>
+''' Classe de description d'un véhicule
+''' </summary>
+Public Class Vehicule
     Private _chassis As String
     Private _moteur As String
     Private _carosserie As String

@@ -1,5 +1,14 @@
-﻿Module Module1
+﻿Option Explicit On
+Option Strict On
+
+''' <summary>
+''' Module principale de l'application
+''' </summary>
+
+Module Module1
+
     Dim maKuga As New Voiture
+    Dim monTrajet As New Trajet()
 
     Sub Main()
 
@@ -13,6 +22,8 @@
 
         System.Console.WriteLine(maKuga.getMoteur)
         System.Console.ReadKey()
+
+
     End Sub
 
 End Module

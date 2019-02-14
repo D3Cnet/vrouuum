@@ -1,4 +1,7 @@
-﻿Public Class Voiture
+﻿''' <summary>
+''' Classe dérivée de Vehicule décrivant une voiture
+''' </summary>
+Public Class Voiture
     Inherits Vehicule
 
     Private _roues As String
