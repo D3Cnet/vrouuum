@@ -61,7 +61,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à Veuillez saisir la ville de destination :.
+        '''  Recherche une chaîne localisée semblable à Veuillez saisir la ville de destination : .
         '''</summary>
         Friend ReadOnly Property r_arrivee() As String
             Get
@@ -70,11 +70,20 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une chaîne localisée semblable à Veuillez saisir la ville de départ :.
+        '''  Recherche une chaîne localisée semblable à Veuillez saisir la ville de départ : .
         '''</summary>
         Friend ReadOnly Property r_depart() As String
             Get
                 Return ResourceManager.GetString("r_depart", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une chaîne localisée semblable à Veuillez saisir la distance séparant les deux villes : .
+        '''</summary>
+        Friend ReadOnly Property r_distance() As String
+            Get
+                Return ResourceManager.GetString("r_distance", resourceCulture)
             End Get
         End Property
     End Module

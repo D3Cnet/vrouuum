@@ -118,9 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="r_arrivee" xml:space="preserve">
-    <value>Veuillez saisir la ville de destination :</value>
+    <value>Veuillez saisir la ville de destination : </value>
   </data>
   <data name="r_depart" xml:space="preserve">
-    <value>Veuillez saisir la ville de départ :</value>
+    <value>Veuillez saisir la ville de départ : </value>
+  </data>
+  <data name="r_distance" xml:space="preserve">
+    <value>Veuillez saisir la distance séparant les deux villes : </value>
   </data>
 </root>
